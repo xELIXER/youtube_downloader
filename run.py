@@ -9,7 +9,7 @@ def main():
     file = open("youtubeLinks.txt", "r")
     links = file.read().split()
     print(links)
-    # downloadYoutubeFromUrl(links)
+    downloadYoutubeFromUrl(links)
 
 if __name__ == "__main__":
     main()
